@@ -7,33 +7,29 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Localização",
-      content: "Itu - SP",
-      action: "Ver no Mapa"
+      content: "Rua Gerson Mendes - Itu, SP",
+      action: "Ver no Mapa",
+      link: "https://maps.google.com/?q=Rua+Gerson+Mendes+Itu+SP"
     },
     {
       icon: Phone,
       title: "Telefone",
-      content: "(11) 9999-9999",
-      action: "Ligar Agora"
-    },
-    {
-      icon: Mail,
-      title: "Email",
-      content: "contato@beachtennisitu.com.br",
-      action: "Enviar Email"
+      content: "+55 11 91033-4425",
+      action: "Ligar Agora",
+      link: "https://wa.me/5511910334425"
     },
     {
       icon: Instagram,
       title: "Instagram",
-      content: "@beachtennisitu",
-      action: "Seguir"
+      content: "@academiazuma",
+      action: "Seguir",
+      link: "https://instagram.com/academiazuma"
     }
   ];
 
   const schedule = [
     { day: "Segunda a Sexta", hours: "06:00 - 22:00" },
-    { day: "Sábado", hours: "08:00 - 18:00" },
-    { day: "Domingo", hours: "08:00 - 14:00" }
+    { day: "Sábado e Domingo", hours: "08:00 - 13:00" }
   ];
 
   return (
@@ -63,9 +59,15 @@ const Contact = () => {
                   <div className="flex-1">
                     <h3 className="font-semibold mb-1">{info.title}</h3>
                     <p className="text-muted-foreground mb-3">{info.content}</p>
-                    <Button variant="link" className="p-0 h-auto text-primary">
-                      {info.action} →
-                    </Button>
+                    <a 
+                      href={info.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="link" className="p-0 h-auto text-primary">
+                        {info.action} →
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </Card>
