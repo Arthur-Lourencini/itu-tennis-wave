@@ -13,7 +13,7 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <span className="text-white font-bold text-lg">Z</span>
               </div>
-              <span className="font-bold text-xl">Academia Zuma</span>
+              <span className="font-bold text-xl">ZUMA</span>
             </div>
             <p className="text-background/70 text-sm">
               A melhor academia de beach tennis em Itu. 
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-background/10 text-center text-sm text-background/70">
-          <p>© {currentYear} Academia Zuma. Todos os direitos reservados.</p>
+          <p>© {currentYear} ZUMA. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

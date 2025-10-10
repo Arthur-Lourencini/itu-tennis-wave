@@ -47,7 +47,7 @@ const About = () => {
                 Sobre a <span className="gradient-text">Academia</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                A Beach Tennis Itu é a principal academia de beach tennis da região. 
+                A Academia ZUMA é a principal academia de beach tennis da região. 
                 Oferecemos aulas para iniciantes e avançados, com professores qualificados 
                 e infraestrutura completa.
               </p>

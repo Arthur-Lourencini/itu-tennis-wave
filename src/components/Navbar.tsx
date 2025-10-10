@@ -29,9 +29,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-              <span className="text-white font-bold text-lg">BT</span>
+              <span className="text-white font-bold text-lg">Z</span>
             </div>
-            <span className="font-bold text-xl hidden sm:inline">Beach Tennis Itu</span>
+            <span className="font-bold text-xl hidden sm:inline">ZUMA</span>
           </div>
 
           {/* Desktop Menu */}

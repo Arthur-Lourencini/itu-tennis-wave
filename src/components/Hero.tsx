@@ -31,8 +31,8 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-extrabold text-background leading-tight">
-            Beach Tennis
-            <span className="block gradient-text mt-2">Itu</span>
+            Academia
+            <span className="block gradient-text mt-2">ZUMA</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-background/90 max-w-2xl mx-auto font-light">
