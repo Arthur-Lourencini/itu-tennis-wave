@@ -7,7 +7,7 @@ const About = () => {
     {
       icon: Trophy,
       title: "Excelência",
-      description: "Estrutura profissional com quadras de alta qualidade"
+      description: "Estrutura profissional com quadras de alta qualidade e cobertas"
     },
     {
       icon: Users,
@@ -17,7 +17,7 @@ const About = () => {
     {
       icon: Target,
       title: "Resultados",
-      description: "Metodologia comprovada para evolução rápida"
+      description: "Metodologia italiana por Doriano Beccaccioli feita para sua evolução"
     },
     {
       icon: Heart,

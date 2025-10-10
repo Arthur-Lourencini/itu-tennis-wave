@@ -8,7 +8,7 @@ const Classes = () => {
       icon: Sparkles,
       title: "Iniciante",
       description: "Perfeito para quem está começando no beach tennis",
-      features: ["Fundamentos básicos", "Técnicas de saque e recepção", "Regras do jogo"],
+      features: ["Fundamentos básicos", "Aprimoramento técnico", "Táticas básicas"],
       color: "from-primary to-accent"
     },
     {
@@ -90,7 +90,7 @@ const Classes = () => {
               <Users2 className="w-6 h-6 text-secondary" />
             </div>
             <div>
-              <h4 className="font-semibold mb-1">Turmas Reduzidas</h4>
+              <h4 className="font-semibold mb-1">Aulas em Grupo</h4>
               <p className="text-sm text-muted-foreground">Atenção personalizada para cada aluno</p>
             </div>
           </Card>

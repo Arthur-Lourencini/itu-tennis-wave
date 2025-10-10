@@ -40,7 +40,7 @@ const Contact = () => {
             Entre em <span className="gradient-text">Contato</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Estamos prontos para receber você! Agende sua aula experimental gratuita.
+            Estamos prontos para receber você! Agende já sua aula experimental
           </p>
         </div>
 
